@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Go.</title>
     <link rel="preload" href="css/style.css" as="style" />
+    <link rel="preload" href="js/main.js" as="script" />
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Rubik&display=swap"
         as="style">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Rubik&display=swap"
@@ -454,7 +455,7 @@
                 <div class="about__slider">
                     <div class="about__item">
                         <div class="about__box">
-                            <img class="about__img" width="555" height="367" src="images/review_first-img.webp" alt="">
+                            <img class="about__img" width="555" height="367" src="images/review_first-img.webp" alt="" loading="lazy">
                             <div class="about__content">
                                 <div class="about__name">
                                     Олексій
@@ -618,17 +619,17 @@
                     <div class="footer__social">
                         <ul class="social__items">
                             <li class="social__items-link">
-                                <a href="https://www.instagram.com" target="_blank">
+                                <a href="https://www.instagram.com" aria-label="Read more on Instagram" target="_blank">
                                     <img src="images/icon-instagram.webp" width="30" height="30" alt="">
                                 </a>
                             </li>
                             <li class="social__items-link">
-                                <a href="https://www.facebook.com" target="_blank">
+                                <a href="https://www.facebook.com" aria-label="Read more on Facebook" target="_blank">
                                     <img src="images/icon-facebook.webp" width="30" height="30" alt="">
                                 </a>
                             </li>
                             <li class="social__items-link">
-                                <a href="https://www.twitter.com" target="_blank">
+                                <a href="https://www.twitter.com" aria-label="Read more on Twitter" target="_blank">
                                     <img src="images/icon-twitter.webp" width="36" height="28" alt="">
                                 </a>
                             </li>
@@ -725,7 +726,7 @@
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script> -->
     <script src="js/libs.min.js" defer></script>
-    <script src="js/main.js" async></script>
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
